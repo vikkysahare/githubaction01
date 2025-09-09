@@ -9,5 +9,5 @@ jobs:
     name: My first job
     runs-on: ubuntu:latest
     steps: 
-       - name: name-any
-         run: echo githubaction01-test01
+      - name: name-any
+        run: echo githubaction01-test01

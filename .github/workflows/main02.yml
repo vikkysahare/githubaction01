@@ -10,7 +10,7 @@ jobs:
     name: first job
     runs-on: ubuntu-latest
     steps:
-      - name: Clean install dependencies and build
+      - name: first step
         run: |
           npm ci
           npm run build

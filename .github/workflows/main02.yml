@@ -11,7 +11,7 @@ jobs:
     steps: 
       - name: name-any
         run: | 
-          amar 
-          akbar
-          anthony
+          "amar" 
+          "akbar"
+          "anthony"
         

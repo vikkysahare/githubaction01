@@ -1,16 +1,13 @@
-name: "githubaction02-test"
-on: 
-  push: 
-    branches: 
+name: "githubaction01-test"
+on: #trigger
+  push:
+    branches:
       - 'main'
       - 'features/**'
-
-jobs: 
-  fst_job:
-    name: first job
+jobs:
+  my_first_job: #jobid1
+    name: My first job
     runs-on: ubuntu-latest
-    steps:
-      - name: first step
-        run: |
-          npm install
-          npm run build
+    steps: 
+      - name: name-any
+        run: echo githubaction01-test01

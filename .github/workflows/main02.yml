@@ -10,4 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: name-any
-        run: echo githubaction01-test01
+        run: | 
+          amar 
+          akbar
+          anthony
+        
